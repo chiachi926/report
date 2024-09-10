@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import contract_grab_json
 
-file_path = "/Users/chiachi/Documents/Master/0706/data.xls"
+file_path = "./data.xls"
 df = pd.read_excel(file_path)
 
 # 顯示前幾行數據來了解結構
