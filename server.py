@@ -9,7 +9,7 @@ import contract_grab_json
 from docx import Document  # 导入 python-docx 库
 
 # 加载数据
-file_path = "/Users/chiachi/Documents/Master/code/data.xls"
+file_path = "./data.xls"
 df = pd.read_excel(file_path)
 
 class RequestHandler(BaseHTTPRequestHandler):
